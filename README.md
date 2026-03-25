@@ -1,5 +1,7 @@
 # 📊 E-commerce Insights Dashboard
 
+![Preview do Dashboard](./dashboard_preview.png)
+
 Este projeto apresenta uma análise de dados de um marketplace de moda, focando no tratamento de dados (ETL), análise estatística e na criação de um Dashboard interativo para visualização de indicadores-chave (KPIs).
 
 ## 🚀 Objetivo
