@@ -4,7 +4,10 @@ from dash import dcc, html
 import plotly.express as px
 
 # 1. Ler o arquivo de estatísticas
-df = pd.read_csv('ecommerce_estatistica.csv')
+import os
+base_path = os.path.dirname(__file__) # Pega o caminho da pasta 'src'
+file_path = os.path.join(base_path, '../data/ecommerce_estatistica.csv')
+df = pd.read_csv(file_path)
 
 # Inicializar o App Dash
 app = dash.Dash(__name__)
