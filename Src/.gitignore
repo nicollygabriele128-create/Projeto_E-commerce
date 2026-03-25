@@ -1,0 +1,19 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Dados Sensíveis 
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
